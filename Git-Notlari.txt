@@ -7,6 +7,7 @@ staged (hazırlanmış)     : Commit'lenmeye hazır dosyaları ifade eder.
 deleted (silinmiş)       : Projeden silinmiş ama GIT üzerinden kaldırılmamış dosyaları ifade eder.
 
 Git Komutları
+explorer .               : Project folder'ı açar.
 git init                 : Henüz versiyon kontrolü altında olmayan bit projenin dizininde, boş bit git deposu oluşturmak için kullanılır.
 git config               : Git'in bir çok konfigürasyon ayarları vardır. Bunlardan ikisi user.name ve user.email olanlardır. Git'i ilk kurduğumuzda genellikle ilk hata bu konfigürasyon ayarlarını yapmaığımız için gelir. Ayrıca komutlarda da görüldüğü gibi bu ayarlar --global yani sistem genelinde geçerlidir. Proje bazlı bu ayarı değiştirebiliriz.
 
