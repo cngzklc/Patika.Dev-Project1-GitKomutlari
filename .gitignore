@@ -1,0 +1,14 @@
+#Database files
+*.accdb
+*.mdb
+*.db
+
+#VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extentions.json
+
+
+password.txt 
