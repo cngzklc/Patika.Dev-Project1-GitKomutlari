@@ -1,0 +1,42 @@
+Git Notları (https://app.patika.dev/courses/git/git-bash-ile-git-temel-komutlari)
+
+Git Terimleri
+untracted (izlenmeyen)   : GIT tarafından henüz takip edilmeyen, yani yeni oluşturulmuş dosyaları ifade eder.
+unstaged (hazırlanmamış) : Güncellenmiş ancak commit'lenmek için hazırlanmış dosyaları ifade eder.
+staged (hazırlanmış)     : Commit'lenmeye hazır dosyaları ifade eder.
+deleted (silinmiş)       : Projeden silinmiş ama GIT üzerinden kaldırılmamış dosyaları ifade eder.
+
+Git Komutları
+git init                 : Henüz versiyon kontrolü altında olmayan bit projenin dizininde, boş bit git deposu oluşturmak için kullanılır.
+git config               : Git'in bir çok konfigürasyon ayarları vardır. Bunlardan ikisi user.name ve user.email olanlardır. Git'i ilk kurduğumuzda genellikle ilk hata bu konfigürasyon ayarlarını yapmaığımız için gelir. Ayrıca komutlarda da görüldüğü gibi bu ayarlar --global yani sistem genelinde geçerlidir. Proje bazlı bu ayarı değiştirebiliriz.
+
+git config --global user.name "Name Surname"
+git config --global user.email "test@email.com"
+
+git config --list        : Bütün konfigürasyon ayarlarını görmek için bu komut kullanılır.
+
+Not: windows işletim sisteminde böyle bir hata ile karşılaşabiliriz. "warning: LF will be replaced by CRLF in kaynak/dosya/yolu"
+Bu hatanın çözümü için; git config core.autocrlf true
+
+git add <dosya veya klasor_name>          : Yeni eklenen veya üzerinde değişiklik yapılan dosyaları staged ortamına göndermek için kullanılır.
+git add . veya git add * veya git add -A  : Tek seferde bütün dosyaları eklemek için kullanılan komutlardır. Buradaki -A (all) tümü anlamındadır. "." iseise tüm dosya uzantılarını ifade eder.
+
+git rm                   : Staged ortamına eklenmiş bir dosyanın takibinin bırakılmasını yani untracked hale getirilmesini sağlayan komuttur.
+git rm --cached <dosya veya klasor_name>
+git rm <dosya veya klasor_name> : Dosyayı klasörden silmek istiyorsak bu komut kullanılır.
+
+git status               : Üzerinde çalışılan bir projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgileri listeler.
+On branch main                : Main branch'inde (dalında) olduğumuzu,
+Changes to be commited        : Commit'lenmeye hazır değişiklikler olduğunu,
+Modified                      : modified: index.html -> index.html dosyasında değişiklik yaptığımızı,
+Deleted                       : deleted: styles.css -> styles.css dosyasını sildiğimiz,
+Changes not staged for commit : Üzerinde değişiklik yapılan ama staged ortamına (add edilmemiş) gönderilmemiş dosyaları ifade eder.
+Untracked files               : Takibi yapılmayan dosyaları ifade eder.
+
+git commit               : Commit staged ortamına alınan (add edilen) dosyaların Local Repostory' gönderilmesidir. En iyi uygulama yöntemi; her kayıt sırasında yapılan değişikliklere açıklayıcı bir mesaj eklemktir. Ayrıca her commit benzersiz bir kimliğe (Unique ID) sahip olur. Bu sayade eski bir commit'e geri dönülebilir ve herhangi bir kayıp yaşanmaz.
+
+git commit -m "ilk commit mesajı" : Buradaki -m (message) mesaj anlamındadır.
+
+git log                  : Proje commit geçmişimizi görüntülememizi sağlar. Bütün commit'ler; ID's, yazarı, tarihi ve mesajı ile beravber listelenir.
+
+git branch               : Local veya remote repostory üzerinden yeni bir branch (dal, kol, şube anlamına gelmektedir.) eklemek, silmel veya listelemek için kullanılır.
