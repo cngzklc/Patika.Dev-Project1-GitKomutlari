@@ -9,7 +9,7 @@ https://app.patika.dev/courses/git/git-bash-ile-git-temel-komutlari
 
 ># Git Komutları
 **explorer .               :** Project folder'ı açar.   
-**git init                 :** Henüz versiyon kontrolü altında olmayan bit projenin dizininde, boş bit git deposu oluşturmak için kullanılır.   
+**git init                 :** Henüz versiyon kontrolü altında olmayan bit projenin dizininde, boş bir git deposu oluşturmak için kullanılır.   
 **git config               :** Git'in bir çok konfigürasyon ayarları vardır. Bunlardan ikisi user.name ve user.email olanlardır. Git'i ilk kurduğumuzda genellikle ilk hata bu konfigürasyon ayarlarını yapmaığımız için gelir. Ayrıca komutlarda da görüldüğü gibi bu ayarlar --global yani sistem genelinde geçerlidir. Proje bazlı bu ayarı değiştirebiliriz.
 
 ```
@@ -27,7 +27,7 @@ Bu hatanın çözümü için; `git config core.autocrlf true`
 
 `git add <dosya veya klasor_name>`          : Yeni eklenen veya üzerinde değişiklik yapılan dosyaları staged ortamına göndermek için kullanılır.    
 `git add .` veya `git add *` veya `git add -A`  : Tek seferde bütün dosyaları eklemek için kullanılan komutlardır. Buradaki `-A` (all) tümü anlamındadır. `"."` ise tüm dosya uzantılarını ifade eder.  
-`git rm`                   : Staged ortamına eklenmiş bir dosyanın takibinin bırakılmasını yani untracked hale getirilmesini sağlayan komuttur. 
+`git rm`                   : Staged ortamına eklenmiş bir dosyanın takibinin bırakılmasını yani untracked hale getirilmesini sağlayan komuttur.     
 `git rm --cached <dosya veya klasor_name>`  
 `git rm <dosya veya klasor_name>` : Dosyayı klasörden silmek istiyorsak bu komut kullanılır.    
 `git status`               : Üzerinde çalışılan bir projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgileri listeler.
