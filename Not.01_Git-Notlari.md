@@ -65,6 +65,8 @@ git clone <remote_URL>
 `git push origin <branch_name>`     
 >Burada belirtilen origin Remote Repository'nin kök dizinidir ve sabit bir isimdir. 
 
+>**git pull                 :** Remote Repository'den Local Repository'ye güncel dosyaları çekmek için kullanırız.
+
 >**git remote add origin https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari** : Bu komut ile local depoyu uzak depoya bağlanır.
 
 >**git diff                 :** Repository üzerinde yapılan değişikliklerden sonra oluşan farkları gösterir.     
