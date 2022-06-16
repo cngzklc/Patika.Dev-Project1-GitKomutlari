@@ -24,4 +24,8 @@
     
 ![](https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari/blob/master-ck/img/Markdown_OpenPreview.png)
 
+<<<<<<< HEAD
 ![](https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari/blob/master-ck/img/Git_Notlari.PNG)
+=======
+![](https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari/blob/master-ck/img/Git_Notlari.PNG)
+>>>>>>> 2115f66e400ce14aeb3f77e5c2be4c96a3785774
