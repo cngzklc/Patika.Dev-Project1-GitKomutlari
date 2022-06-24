@@ -20,6 +20,7 @@ git config --global user.email "test@email.com"
 `git config --list`        : Bütün konfigürasyon ayarlarını görmek için bu komut kullanılır.
 
 ` :q ` komutu komut satırına dönmemizi sağlar. 
+
 ---
 **Not:** windows işletim sisteminde böyle bir hata ile karşılaşabiliriz. **"warning: LF will be replaced by CRLF in kaynak/dosya/yolu"**
 Bu hatanın çözümü için; `git config core.autocrlf true`
