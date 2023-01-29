@@ -63,6 +63,7 @@ Commit'ler arası geçiş yapmak için (Eski versiyona dönmek istenildiği zama
 `git merge <branch_name>`
 
 >**git clone                :** Mevcut bir Remote Repository'de bulunan dosyaların bilgisayarımıza kopyasının oluşturulmasını sağlar.
+>
 `git clone <remote_URL>`
 
 >**git push                 :** Projemizde aldığımız commit'leri, Remote Repository'e gönderir.  
