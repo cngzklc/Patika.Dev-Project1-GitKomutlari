@@ -7,6 +7,15 @@ https://app.patika.dev/courses/git/git-bash-ile-git-temel-komutlari
 **staged (hazırlanmış)     :** Commit'lenmeye hazır dosyaları ifade eder.   
 **deleted (silinmiş)       :** Projeden silinmiş ama GIT üzerinden kaldırılmamış dosyaları ifade eder.
 
+># git status Terimleri 
+
+>**On branch main                :** Main branch'inde (dalında) olduğumuzu,  
+**Changes to be commited        :** Commit'lenmeye hazır değişiklikler olduğunu,    
+**Modified                      :** modified: index.html -> index.html dosyasında değişiklik yaptığımızı,   
+**Deleted                       :** deleted: styles.css -> styles.css dosyasını sildiğimiz,     
+**Changes not staged for commit :** Üzerinde değişiklik yapılan ama staged ortamına (add edilmemiş) gönderilmemiş dosyaları ifade eder.     
+**Untracked files               :**  Takibi yapılmayan dosyaları ifade eder. 
+
 ># Git Komutları
 **explorer .               :** Project folder'ı açar.   
 **git init                 :** Henüz versiyon kontrolü altında olmayan bit projenin dizininde, boş bir git deposu oluşturmak için kullanılır.   
@@ -33,15 +42,6 @@ Bu hatanın çözümü için; `git config core.autocrlf true`
 `git rm --cached <dosya veya klasor_name>`  
 `git rm <dosya veya klasor_name>` : Dosyayı klasörden silmek istiyorsak bu komut kullanılır.    
 `git status`               : Üzerinde çalışılan bir projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgileri listeler.
-
-># git status Terimleri 
-
->**On branch main                :** Main branch'inde (dalında) olduğumuzu,  
-**Changes to be commited        :** Commit'lenmeye hazır değişiklikler olduğunu,    
-**Modified                      :** modified: index.html -> index.html dosyasında değişiklik yaptığımızı,   
-**Deleted                       :** deleted: styles.css -> styles.css dosyasını sildiğimiz,     
-**Changes not staged for commit :** Üzerinde değişiklik yapılan ama staged ortamına (add edilmemiş) gönderilmemiş dosyaları ifade eder.     
-**Untracked files               :**  Takibi yapılmayan dosyaları ifade eder. 
 
 >**git commit               :** Commit staged ortamına alınan (add edilen) dosyaların Local Repository' gönderilmesidir. En iyi uygulama yöntemi; her kayıt sırasında yapılan değişikliklere açıklayıcı bir mesaj eklemktir. Ayrıca her commit benzersiz bir kimliğe (Unique ID) sahip olur. Bu sayade eski bir commit'e geri dönülebilir ve herhangi bir kayıp yaşanmaz.   
 **git commit -m "ilk commit mesajı" :** Buradaki -m (message) mesaj anlamındadır.
