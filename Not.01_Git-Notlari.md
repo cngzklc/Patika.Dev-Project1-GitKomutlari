@@ -72,7 +72,7 @@ Commit'ler arası geçiş yapmak için (Eski versiyona dönmek istenildiği zama
 
 `git pull`                 : Remote Repository'den Local Repository'ye güncel dosyaları çekmek için kullanırız.
 
->**git remote add origin https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari** : Bu komut ile local depoyu uzak depoya bağlanır.
+`git remote add origin https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari` : Bu komut ile local depoyu uzak depoya bağlanır.
 
 >**git diff                 :** Repository üzerinde yapılan değişikliklerden sonra oluşan farkları gösterir.     
 Çalışma dizini ile repository (HEAD) arasındaki farkları görmek için; `git diff HEAD`   
