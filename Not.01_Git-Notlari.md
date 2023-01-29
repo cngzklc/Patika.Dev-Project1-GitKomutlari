@@ -34,6 +34,8 @@ Bu hatanın çözümü için; `git config core.autocrlf true`
 `git rm <dosya veya klasor_name>` : Dosyayı klasörden silmek istiyorsak bu komut kullanılır.    
 `git status`               : Üzerinde çalışılan bir projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgileri listeler.
 
+># git status Terimleri 
+
 >**On branch main                :** Main branch'inde (dalında) olduğumuzu,  
 **Changes to be commited        :** Commit'lenmeye hazır değişiklikler olduğunu,    
 **Modified                      :** modified: index.html -> index.html dosyasında değişiklik yaptığımızı,   
