@@ -44,7 +44,7 @@ Bu hatanın çözümü için; `git config core.autocrlf true`
 `git status`               : Üzerinde çalışılan bir projenin o anki durumu hakkında bilgi verir. Yapılan değişiklikler, eklenen ve silinen dosyalar gibi bilgileri listeler.
 
 >**git commit               :** Commit staged ortamına alınan (add edilen) dosyaların Local Repository' gönderilmesidir. En iyi uygulama yöntemi; her kayıt sırasında yapılan değişikliklere açıklayıcı bir mesaj eklemktir. Ayrıca her commit benzersiz bir kimliğe (Unique ID) sahip olur. Bu sayade eski bir commit'e geri dönülebilir ve herhangi bir kayıp yaşanmaz.   
-**git commit -m "ilk commit mesajı" :** Buradaki -m (message) mesaj anlamındadır.
+`git commit -m "ilk commit mesajı"` : Buradaki -m (message) mesaj anlamındadır.
 
 >**git log                  :** Proje commit geçmişimizi görüntülememizi sağlar. Bütün commit'ler; ID's, yazarı, tarihi ve mesajı ile beravber listelenir.
 
