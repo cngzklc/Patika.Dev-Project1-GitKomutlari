@@ -46,30 +46,30 @@ Bu hatanın çözümü için; `git config core.autocrlf true`
 >**git commit               :** Commit staged ortamına alınan (add edilen) dosyaların Local Repository' gönderilmesidir. En iyi uygulama yöntemi; her kayıt sırasında yapılan değişikliklere açıklayıcı bir mesaj eklemktir. Ayrıca her commit benzersiz bir kimliğe (Unique ID) sahip olur. Bu sayade eski bir commit'e geri dönülebilir ve herhangi bir kayıp yaşanmaz.   
 `git commit -m "ilk commit mesajı"` : Buradaki -m (message) mesaj anlamındadır.
 
->**git log                  :** Proje commit geçmişimizi görüntülememizi sağlar. Bütün commit'ler; ID's, yazarı, tarihi ve mesajı ile beravber listelenir.
+`git log`                  : Proje commit geçmişimizi görüntülememizi sağlar. Bütün commit'ler; ID's, yazarı, tarihi ve mesajı ile beravber listelenir.
 
->**git branch               :** Local veya remote Repository üzerinden yeni bir branch (dal, kol, şube anlamına gelmektedir.) eklemek, silmek veya listelemek için kullanılır.   
+`git branch`               : Local veya remote Repository üzerinden yeni bir branch (dal, kol, şube anlamına gelmektedir.) eklemek, silmek veya listelemek için kullanılır.   
 Projeye yeni bir branch eklemek için; `git branch <branch_name>`
 Tüm uzak ve yerel branch'ları listelemek için; git branch -a
 Bir branch'ı silmek için; `git branch -d <branch_name>`
 
->**git checkout             :** Branch'lar arası veya commit'ler arası geçiş yapmak için kullanılır. 
+`git checkout`            : Branch'lar arası veya commit'ler arası geçiş yapmak için kullanılır. 
 Mevcutta var olan bir branch'a geçiş yapmak için; `git checkout <branch_name>`  
 Yeni bir branch oluşturup bu branch'a geçmek için; `git checkout -b <branch_name>`  
 Commit'ler arası geçiş yapmak için (Eski versiyona dönmek istenildiği zaman); `git checkout <commit_ID>`
 
->**git push --set-upstream origin <branch_name> :** Oluşturulan branch'ı uzak depoya (Remote Repository) kayıt etmek için kullanılan komuttur.   
+`git push --set-upstream origin <branch_name>` : Oluşturulan branch'ı uzak depoya (Remote Repository) kayıt etmek için kullanılan komuttur.   
 **git merge                :** Başka bir branch'da olan değişiklikleri, bulunduğumuz branch ile birleştirmek için kullanılır.   
 `git merge <branch_name>`
 
 >**git clone                :** Mevcut bir Remote Repository'de bulunan dosyaların bilgisayarımıza kopyasının oluşturulmasını sağlar.
-git clone <remote_URL>  
+`git clone <remote_URL>`
 
 >**git push                 :** Projemizde aldığımız commit'leri, Remote Repository'e gönderir.  
 `git push origin <branch_name>`     
 >Burada belirtilen origin Remote Repository'nin kök dizinidir ve sabit bir isimdir. 
 
->**git pull                 :** Remote Repository'den Local Repository'ye güncel dosyaları çekmek için kullanırız.
+`git pull`                 : Remote Repository'den Local Repository'ye güncel dosyaları çekmek için kullanırız.
 
 >**git remote add origin https://github.com/cngzklc/Patika.Dev-Project1-GitKomutlari** : Bu komut ile local depoyu uzak depoya bağlanır.
 
